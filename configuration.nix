@@ -98,6 +98,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
      git
+     gh
      tmux
      vim 
      wget
